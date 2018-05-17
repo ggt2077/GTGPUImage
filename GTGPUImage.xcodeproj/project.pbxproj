@@ -13,9 +13,18 @@
 		377F907420AA7E0600ED079B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377F907320AA7E0600ED079B /* Assets.xcassets */; };
 		377F907720AA7E0600ED079B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377F907520AA7E0600ED079B /* LaunchScreen.storyboard */; };
 		377F907A20AA7E0600ED079B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377F907920AA7E0600ED079B /* main.m */; };
+		377F909B20AAEE0400ED079B /* WID-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 377F909A20AAEE0400ED079B /* WID-small.jpg */; };
+		379346FE20AD872300270DFA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377F908920AA7E3F00ED079B /* QuartzCore.framework */; };
+		379346FF20AD872A00270DFA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377F908720AA7E3700ED079B /* AVFoundation.framework */; };
+		3793470020AD873000270DFA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377F908520AA7E2F00ED079B /* OpenGLES.framework */; };
+		3793470120AD873600270DFA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377F908320AA7E2800ED079B /* CoreVideo.framework */; };
+		3793470220AD873D00270DFA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377F908120AA7E2100ED079B /* CoreMedia.framework */; };
+		3793470320AD8A6300270DFA /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3793470420AD8A6300270DFA /* libGPUImage.a */; };
+		47168A842387E642851850DC /* libPods-GTGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C5502F9021EA74CCAF8B81 /* libPods-GTGPUImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F02526D89193C6CE45AD2E8 /* Pods-GTGPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTGPUImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTGPUImage/Pods-GTGPUImage.release.xcconfig"; sourceTree = "<group>"; };
 		377F906720AA7E0600ED079B /* GTGPUImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTGPUImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377F906A20AA7E0600ED079B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		377F906B20AA7E0600ED079B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,15 @@
 		377F907620AA7E0600ED079B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		377F907820AA7E0600ED079B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377F907920AA7E0600ED079B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		377F908120AA7E2100ED079B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		377F908320AA7E2800ED079B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		377F908520AA7E2F00ED079B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		377F908720AA7E3700ED079B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		377F908920AA7E3F00ED079B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		377F909A20AAEE0400ED079B /* WID-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WID-small.jpg"; sourceTree = "<group>"; };
+		3793470420AD8A6300270DFA /* libGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGPUImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F5BBE4869D4AC61758EC70 /* Pods-GTGPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTGPUImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTGPUImage/Pods-GTGPUImage.debug.xcconfig"; sourceTree = "<group>"; };
+		E0C5502F9021EA74CCAF8B81 /* libPods-GTGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTGPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3793470320AD8A6300270DFA /* libGPUImage.a in Frameworks */,
+				3793470220AD873D00270DFA /* CoreMedia.framework in Frameworks */,
+				3793470120AD873600270DFA /* CoreVideo.framework in Frameworks */,
+				3793470020AD873000270DFA /* OpenGLES.framework in Frameworks */,
+				379346FF20AD872A00270DFA /* AVFoundation.framework in Frameworks */,
+				379346FE20AD872300270DFA /* QuartzCore.framework in Frameworks */,
+				47168A842387E642851850DC /* libPods-GTGPUImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,8 @@
 			children = (
 				377F906920AA7E0600ED079B /* GTGPUImage */,
 				377F906820AA7E0600ED079B /* Products */,
+				377F908020AA7E2000ED079B /* Frameworks */,
+				CB5C110072DF0A80EA2EA36E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +85,7 @@
 		377F906920AA7E0600ED079B /* GTGPUImage */ = {
 			isa = PBXGroup;
 			children = (
+				377F909A20AAEE0400ED079B /* WID-small.jpg */,
 				377F906A20AA7E0600ED079B /* AppDelegate.h */,
 				377F906B20AA7E0600ED079B /* AppDelegate.m */,
 				377F906D20AA7E0600ED079B /* ViewController.h */,
@@ -71,6 +99,29 @@
 			path = GTGPUImage;
 			sourceTree = "<group>";
 		};
+		377F908020AA7E2000ED079B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3793470420AD8A6300270DFA /* libGPUImage.a */,
+				377F908920AA7E3F00ED079B /* QuartzCore.framework */,
+				377F908720AA7E3700ED079B /* AVFoundation.framework */,
+				377F908520AA7E2F00ED079B /* OpenGLES.framework */,
+				377F908320AA7E2800ED079B /* CoreVideo.framework */,
+				377F908120AA7E2100ED079B /* CoreMedia.framework */,
+				E0C5502F9021EA74CCAF8B81 /* libPods-GTGPUImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB5C110072DF0A80EA2EA36E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98F5BBE4869D4AC61758EC70 /* Pods-GTGPUImage.debug.xcconfig */,
+				1F02526D89193C6CE45AD2E8 /* Pods-GTGPUImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 377F907D20AA7E0600ED079B /* Build configuration list for PBXNativeTarget "GTGPUImage" */;
 			buildPhases = (
+				5323EFDA0EC683F243ACB95C /* [CP] Check Pods Manifest.lock */,
 				377F906320AA7E0600ED079B /* Sources */,
 				377F906420AA7E0600ED079B /* Frameworks */,
 				377F906520AA7E0600ED079B /* Resources */,
+				97CBBC31C842FCDA5A9DD39C /* [CP] Embed Pods Frameworks */,
+				FBF78796C890C8BFC303838C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +185,60 @@
 			files = (
 				377F907720AA7E0600ED079B /* LaunchScreen.storyboard in Resources */,
 				377F907420AA7E0600ED079B /* Assets.xcassets in Resources */,
+				377F909B20AAEE0400ED079B /* WID-small.jpg in Resources */,
 				377F907220AA7E0600ED079B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5323EFDA0EC683F243ACB95C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97CBBC31C842FCDA5A9DD39C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTGPUImage/Pods-GTGPUImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF78796C890C8BFC303838C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTGPUImage/Pods-GTGPUImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		377F906320AA7E0600ED079B /* Sources */ = {
@@ -218,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,29 +379,35 @@
 		};
 		377F907E20AA7E0600ED079B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F5BBE4869D4AC61758EC70 /* Pods-GTGPUImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22F4PRA957;
+				DEVELOPMENT_TEAM = XKP42663Z9;
 				INFOPLIST_FILE = GTGPUImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ggt.GTGPUImage;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.GPUImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		377F907F20AA7E0600ED079B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F02526D89193C6CE45AD2E8 /* Pods-GTGPUImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22F4PRA957;
+				DEVELOPMENT_TEAM = XKP42663Z9;
 				INFOPLIST_FILE = GTGPUImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ggt.GTGPUImage;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.GPUImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

@@ -4,6 +4,14 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>NSCameraUsageDescription</key>
+    <string>此 App 需要您的同意才能使用相机</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>此 App 需要您的同意才能读取媒体资料库</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>此 App 需要您的同意才能使用麦克风</string>
+	<key>CFBundleDisplayName</key>
+	<string>GTGPUImage</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
