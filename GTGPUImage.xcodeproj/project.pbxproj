@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		377F906C20AA7E0600ED079B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377F906B20AA7E0600ED079B /* AppDelegate.m */; };
-		377F906F20AA7E0600ED079B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377F906E20AA7E0600ED079B /* ViewController.m */; };
+		377F906F20AA7E0600ED079B /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377F906E20AA7E0600ED079B /* VideoViewController.m */; };
 		377F907220AA7E0600ED079B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377F907020AA7E0600ED079B /* Main.storyboard */; };
 		377F907420AA7E0600ED079B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377F907320AA7E0600ED079B /* Assets.xcassets */; };
 		377F907720AA7E0600ED079B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377F907520AA7E0600ED079B /* LaunchScreen.storyboard */; };
@@ -20,6 +20,8 @@
 		3793470120AD873600270DFA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377F908320AA7E2800ED079B /* CoreVideo.framework */; };
 		3793470220AD873D00270DFA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377F908120AA7E2100ED079B /* CoreMedia.framework */; };
 		3793470320AD8A6300270DFA /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3793470420AD8A6300270DFA /* libGPUImage.a */; };
+		3793470720AD9C4E00270DFA /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793470620AD9C4E00270DFA /* PhotoViewController.m */; };
+		3793470A20ADA10500270DFA /* GTRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3793470920ADA10500270DFA /* GTRootTableViewController.m */; };
 		47168A842387E642851850DC /* libPods-GTGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C5502F9021EA74CCAF8B81 /* libPods-GTGPUImage.a */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +30,8 @@
 		377F906720AA7E0600ED079B /* GTGPUImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTGPUImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377F906A20AA7E0600ED079B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		377F906B20AA7E0600ED079B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		377F906D20AA7E0600ED079B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		377F906E20AA7E0600ED079B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		377F906D20AA7E0600ED079B /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		377F906E20AA7E0600ED079B /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		377F907120AA7E0600ED079B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		377F907320AA7E0600ED079B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		377F907620AA7E0600ED079B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +44,10 @@
 		377F908920AA7E3F00ED079B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		377F909A20AAEE0400ED079B /* WID-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WID-small.jpg"; sourceTree = "<group>"; };
 		3793470420AD8A6300270DFA /* libGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGPUImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3793470520AD9C4E00270DFA /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		3793470620AD9C4E00270DFA /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		3793470820ADA10500270DFA /* GTRootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTRootTableViewController.h; sourceTree = "<group>"; };
+		3793470920ADA10500270DFA /* GTRootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTRootTableViewController.m; sourceTree = "<group>"; };
 		98F5BBE4869D4AC61758EC70 /* Pods-GTGPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTGPUImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTGPUImage/Pods-GTGPUImage.debug.xcconfig"; sourceTree = "<group>"; };
 		E0C5502F9021EA74CCAF8B81 /* libPods-GTGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTGPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,8 +94,12 @@
 				377F909A20AAEE0400ED079B /* WID-small.jpg */,
 				377F906A20AA7E0600ED079B /* AppDelegate.h */,
 				377F906B20AA7E0600ED079B /* AppDelegate.m */,
-				377F906D20AA7E0600ED079B /* ViewController.h */,
-				377F906E20AA7E0600ED079B /* ViewController.m */,
+				3793470820ADA10500270DFA /* GTRootTableViewController.h */,
+				3793470920ADA10500270DFA /* GTRootTableViewController.m */,
+				377F906D20AA7E0600ED079B /* VideoViewController.h */,
+				377F906E20AA7E0600ED079B /* VideoViewController.m */,
+				3793470520AD9C4E00270DFA /* PhotoViewController.h */,
+				3793470620AD9C4E00270DFA /* PhotoViewController.m */,
 				377F907020AA7E0600ED079B /* Main.storyboard */,
 				377F907320AA7E0600ED079B /* Assets.xcassets */,
 				377F907520AA7E0600ED079B /* LaunchScreen.storyboard */,
@@ -245,7 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377F906F20AA7E0600ED079B /* ViewController.m in Sources */,
+				3793470720AD9C4E00270DFA /* PhotoViewController.m in Sources */,
+				3793470A20ADA10500270DFA /* GTRootTableViewController.m in Sources */,
+				377F906F20AA7E0600ED079B /* VideoViewController.m in Sources */,
 				377F907A20AA7E0600ED079B /* main.m in Sources */,
 				377F906C20AA7E0600ED079B /* AppDelegate.m in Sources */,
 			);

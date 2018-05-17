@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VideoViewController.h
 //  GTGPUImage
 //
 //  Created by Tony on 2018/5/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface VideoViewController : UIViewController
 
 
 @end

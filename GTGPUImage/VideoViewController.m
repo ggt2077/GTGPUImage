@@ -1,19 +1,19 @@
 //
-//  ViewController.m
+//  VideoViewController.m
 //  GTGPUImage
 //
 //  Created by Tony on 2018/5/15.
 //  Copyright © 2018年 58. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "VideoViewController.h"
 #import <GPUImage/GPUImage.h>
 
 #define DOCUMENT(path) [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:path]
 
-@interface ViewController ()
+@interface VideoViewController ()
 
-@property (weak, nonatomic) IBOutlet GPUImageView *imageView;
+@property (nonatomic, strong) GPUImageView *imageView;
 
 @property (nonatomic, strong) GPUImageVideoCamera *video;
 
@@ -25,11 +25,13 @@
 
 @end
 
-@implementation ViewController
+@implementation VideoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:self.imageView];
+    
     _recording = NO;
     // 设置背景色
     [_imageView setBackgroundColorRed:1.0 green:1.0 blue:1.0 alpha:1.0];
@@ -51,6 +53,24 @@
     [_video addTarget:_writer];
     // 开始拍摄
     [_video startCameraCapture]; 
+}
+- (void)buttonClick:(id)sender {
+    if (!_recording) {
+        [_writer startRecording];
+        _recording = YES;
+    }
+}
+- (void)stopClick:(id)sender {
+    [_writer finishRecording];
+}
+
+#pragma mark -- Getter --
+
+- (GPUImageView *)imageView {
+    if (!_imageView) {
+        _imageView = [[GPUImageView alloc] initWithFrame:self.view.bounds];
+    }
+    return _imageView;
 }
 
 @end
