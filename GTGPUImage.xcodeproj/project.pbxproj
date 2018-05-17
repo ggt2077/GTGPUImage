@@ -48,6 +48,7 @@
 		3793470620AD9C4E00270DFA /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		3793470820ADA10500270DFA /* GTRootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTRootTableViewController.h; sourceTree = "<group>"; };
 		3793470920ADA10500270DFA /* GTRootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTRootTableViewController.m; sourceTree = "<group>"; };
+		3793470B20ADAB3000270DFA /* GTMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMacros.h; sourceTree = "<group>"; };
 		98F5BBE4869D4AC61758EC70 /* Pods-GTGPUImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTGPUImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTGPUImage/Pods-GTGPUImage.debug.xcconfig"; sourceTree = "<group>"; };
 		E0C5502F9021EA74CCAF8B81 /* libPods-GTGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTGPUImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +95,7 @@
 				377F909A20AAEE0400ED079B /* WID-small.jpg */,
 				377F906A20AA7E0600ED079B /* AppDelegate.h */,
 				377F906B20AA7E0600ED079B /* AppDelegate.m */,
+				3793470B20ADAB3000270DFA /* GTMacros.h */,
 				3793470820ADA10500270DFA /* GTRootTableViewController.h */,
 				3793470920ADA10500270DFA /* GTRootTableViewController.m */,
 				377F906D20AA7E0600ED079B /* VideoViewController.h */,
